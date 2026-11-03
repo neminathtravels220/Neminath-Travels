@@ -1,10 +1,10 @@
 
 
 const DEFAULT_SENDER_EMAIL = 'neminathtravels220@gmail.com';
-const DEFAULT_SENDER_NAME = 'Naminath Travels';
+const DEFAULT_SENDER_NAME = 'Neminath Travels';
 
 module.exports = async function handler(req, res) {
-    
+
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, api-key');
@@ -34,7 +34,7 @@ module.exports = async function handler(req, res) {
     }
 
     try {
-        
+
         let body = req.body;
         if (typeof body === 'string') {
             try { body = JSON.parse(body); } catch (e) { body = {}; }
@@ -82,14 +82,14 @@ module.exports = async function handler(req, res) {
         const finalHtml = htmlContent || `
             <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 24px; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px;">
                 <div style="padding-bottom: 16px; border-bottom: 2px solid #0284c7; margin-bottom: 20px;">
-                    <h2 style="margin: 0; color: #0f172a;">Naminath Travels</h2>
+                    <h2 style="margin: 0; color: #0f172a;">Neminath Travels</h2>
                     <p style="margin: 4px 0 0; color: #64748b; font-size: 14px;">Travel Safe, Travel Happy</p>
                 </div>
                 <div style="font-size: 15px; line-height: 1.7; color: #334155;">
                     ${(textContent || '').replace(/\n/g, '<br>')}
                 </div>
                 <div style="margin-top: 28px; padding-top: 16px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;">
-                    Naminath Travels &bull; Ahmedabad, Gujarat &bull; Support: +91 91065 19219
+                    Neminath Travels &bull; Ahmedabad, Gujarat &bull; Support: +91 91065 19219
                 </div>
             </div>
         `;
