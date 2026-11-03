@@ -1,6 +1,6 @@
 
 
-const OWNER_EMAIL = 'naminathtravels22@gmail.com';
+const OWNER_EMAIL = 'neminathtravels220@gmail.com';
 
 document.addEventListener('DOMContentLoaded', () => {
 

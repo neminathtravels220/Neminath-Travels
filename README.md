@@ -13,7 +13,7 @@ This project is pre-configured and ready to deploy across multiple platforms wit
 2. Go to [Vercel Dashboard](https://vercel.com/) &rarr; **Add New Project** &rarr; Import your repository.
 3. Under **Environment Variables**, add:
    - `BREVO_API_KEY`: `your_brevo_api_key_from_env`
-   - `OWNER_EMAIL`: `naminathtravels22@gmail.com`
+   - `OWNER_EMAIL`: `neminathtravels220@gmail.com`
 4. Click **Deploy**. Vercel will automatically serve the website and execute `/api/send-email` as a Serverless function via [`vercel.json`](vercel.json).
 
 ---
@@ -60,5 +60,5 @@ npm start
 | **New Customer Booking** | Brevo API (`/api/send-email`) | FormSubmit.co + EmailJS |
 | **Admin Booking Approval** | 1-Click Brevo API Dispatch | 1-Click Gmail Pre-filled Composer |
 
-- **Official Business Email:** `naminathtravels22@gmail.com`
+- **Official Business Email:** `neminathtravels220@gmail.com`
 - **Customer Helpline:** `+91 91065 19219`

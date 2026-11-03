@@ -1,6 +1,6 @@
 
 
-const DEFAULT_SENDER_EMAIL = 'naminathtravels22@gmail.com';
+const DEFAULT_SENDER_EMAIL = 'neminathtravels220@gmail.com';
 const DEFAULT_SENDER_NAME = 'Naminath Travels';
 
 module.exports = async function handler(req, res) {

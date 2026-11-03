@@ -11,4 +11,4 @@ services:
       - key: BREVO_API_KEY
         sync: false
       - key: OWNER_EMAIL
-        value: naminathtravels22@gmail.com
+        value: neminathtravels220@gmail.com
