@@ -1581,6 +1581,20 @@ textarea.form-control {
         padding: 0.5rem 0.85rem;
     }
 
+    .booking-card {
+        padding: 0.85rem;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+}
+
 :root {
     --primary: #f97316;
     --primary-hover: #ea580c;
